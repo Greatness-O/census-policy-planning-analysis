@@ -1,0 +1,3 @@
+decision_area,recommended_option,evidence_score,main_metric,evidence_for,evidence_against
+Land use,Train station,0.942,Commuter proxy share: 25.1%; university student share: 6.4%,High commuter proxy and confirmed university-student commuting pressure,No direct journey-to-work or traffic-volume field
+Public investment,Employment and training,0.882,Working-age unemployment rate: 8.8%,Working-age unemployment creates direct need for skills and retraining,Occupation data does not show duration of unemployment or skills gaps

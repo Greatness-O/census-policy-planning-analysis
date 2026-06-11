@@ -1,0 +1,6 @@
+limitation
+The data is synthetic and should not be interpreted as a real census.
+Commuting is inferred because workplace location and travel mode are not provided.
+Affluence is inferred from occupation because income and property data are unavailable.
+Population growth is inferred from age structure because historical census periods are unavailable.
+"Medical demand is inferred from infirmity records, age structure and birth proxies."

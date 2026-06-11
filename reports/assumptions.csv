@@ -1,0 +1,7 @@
+assumption,justification
+University students are commuters,The project brief states the town has no university but students live there and commute to nearby cities.
+"Missing religion means 'Not stated', not absence of religion",Religion is sensitive and should not be inferred.
+"Missing infirmity means 'None recorded', not guaranteed absence of infirmity",Census-style records may contain non-response.
+Affluence is approximated using professional occupation keywords,"The dataset has no direct income, property value or wealth variable."
+Birth pressure is approximated using infants and children under five,The dataset is a cross-sectional census and does not contain historical birth records.
+Death rate cannot be directly calculated from a one-time census snapshot,The project uses old-age dependency and older-elderly share as ageing-care pressure proxies.
