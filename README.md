@@ -133,11 +133,10 @@ streamlit run app.py
 
 The dashboard should open automatically in your browser. If it does not, open the local URL shown in the terminal.
 
-Add this section too:
-
 ```markdown
 ## Dashboard Preview
 
 ![Dashboard overview](outputs/figures/dashboard_overview.png)
+```
 
 The screenshot above shows the Streamlit dashboard overview page, including the final recommendations, project summary and policy indicators.
