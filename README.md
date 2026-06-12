@@ -91,26 +91,28 @@ census-policy-planning-analysis/
     ├── limitations.csv
     └── recommendation_summary.csv
 ```
-## Streamlit Dashboard
+## Interactive Streamlit Dashboard
 
-This project includes an interactive Streamlit dashboard for exploring the cleaned census data and decision-support outputs.
+This project includes an interactive Streamlit dashboard that allows users to explore the mock census dataset and review the evidence behind the final policy recommendations.
 
-### Run locally
+The dashboard includes:
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-
-Run the dashboard:
-streamlit run app.py
-
-The app includes:
-
-- data quality checks
-- demographic analysis
+- data quality checks and missing-value analysis
+- cleaned dataset preview
+- demographic analysis by age group and gender
 - transport and commuting indicators
-- employment analysis
-- decision matrices
-- limitations and assumptions
-- downloadable outputs
+- employment and training indicators
+- transparent decision matrices for land-use and investment options
+- limitations, assumptions and additional data requirements
+- downloadable cleaned dataset and decision matrix outputs
+
+### Final Recommendations
+
+Based on the available census indicators, the dashboard recommends:
+
+| Decision Area | Recommendation | Main Evidence |
+|---|---|---|
+| Land use | Train station | High commuter-proxy share and university-student population |
+| Investment priority | Employment and training | Working-age unemployment signal |
+
+The decision matrix is based on the full dataset and represents the whole town, not a filtered subgroup.
