@@ -116,3 +116,27 @@ Based on the available census indicators, the dashboard recommends:
 | Investment priority | Employment and training | Working-age unemployment signal |
 
 The decision matrix is based on the full dataset and represents the whole town, not a filtered subgroup.
+
+## How to Run the Dashboard Locally
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit app:
+``` 
+streamlit run app.py
+```
+
+The dashboard should open automatically in your browser. If it does not, open the local URL shown in the terminal.
+
+Add this section too:
+
+```markdown
+## Dashboard Preview
+
+![Dashboard overview](outputs/figures/dashboard_overview.png)
+
+The screenshot above shows the Streamlit dashboard overview page, including the final recommendations, project summary and policy indicators.
