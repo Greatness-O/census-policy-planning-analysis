@@ -91,4 +91,26 @@ census-policy-planning-analysis/
     ├── limitations.csv
     └── recommendation_summary.csv
 ```
- 
+## Streamlit Dashboard
+
+This project includes an interactive Streamlit dashboard for exploring the cleaned census data and decision-support outputs.
+
+### Run locally
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+
+Run the dashboard:
+streamlit run app.py
+
+The app includes:
+
+- data quality checks
+- demographic analysis
+- transport and commuting indicators
+- employment analysis
+- decision matrices
+- limitations and assumptions
+- downloadable outputs
