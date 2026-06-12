@@ -62,6 +62,7 @@ census-policy-planning-analysis/
 ├── outputs/
 │   ├── figures/
 │   │   ├── adult_marital_status_distribution.png
+│   │   ├── dashboard_overview.png
 │   │   ├── commuter_demand_indicators.png
 │   │   ├── household_occupancy_distribution.png
 │   │   ├── investment_decision_matrix_scores.png
